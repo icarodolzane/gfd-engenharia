@@ -4,8 +4,8 @@ import whatsapp from '../assets/whatsapp.png'
 export default function ContactCard() {
   return (
     
-<div className="w-96 h-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-300 dark:border-gray-700">
-    <div className="flex flex-col items-center pb-10 gap-10 mt-10">
+<div className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-300 dark:border-gray-700 min-w-min">
+    <div className="flex flex-col items-center pb-10 gap-5 mt-10">
         <h1 className="text-2xl font-sans-bold text-gray-900">Gabriel Feitosa Dolzane</h1>
         <h3 className="text-lg text-stone-500 leading-10">  dolzane.gabriel@gmail.com</h3>
         <h3 className="text-lg text-stone-500 leading-10">www.gfd-engenharia.com.br</h3>

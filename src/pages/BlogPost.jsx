@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import image from '../assets/image_blog.jpg';
-import Header from '../components/Header';
+import MobileHeader from '../components/MobileHeader';
+// import Header from '../components/Header';
 export default function BlogPost() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
+      <MobileHeader />
       <div className="flex flex-row justify-around  bg-slate-200 p-10 gap-10">
         <div className=" border border-sky-500 w-4/6 h-4/6 rounded-lg">
           <img src={image} alt="panel-solar" className='w-full h-full'/>
