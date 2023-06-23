@@ -9,6 +9,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import BlogPost from './pages/BlogPost';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,11 @@ const router = createBrowserRouter([
   {
       path: "/contact",
       element: <Contact />,
-  }
+  },
+  {
+    path: "/info",
+    element: <BlogPost />,
+}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
